@@ -1,0 +1,190 @@
+# Whitelist to allow Apple Services
+# Based on service description here: https://support.apple.com/en-us/HT210060
+# Last edited: 2023-10-30
+
+# Device Setup
+@@albert.apple.com
+@@captive.apple.com
+@@gs.apple.com
+@@humb.apple.com
+@@static.ips.apple.com
+@@sq-device.apple.com
+@@tbsc.apple.com
+@@time-ios.apple.com
+@@time.apple.com
+@@time-macos.apple.com
+
+
+# Device Management
+@@||push.apple.com
+@@deviceenrollment.apple.com
+@@deviceservices-external.apple.com
+@@gdmf.apple.com
+@@identity.apple.com
+@@iprofiles.apple.com
+@@mdmenrollment.apple.com
+@@setup.icloud.com
+@@vpp.itunes.apple.com
+
+
+# Apple Business Manager and Apple School Manager
+@@||business.apple.com
+@@||school.apple.com
+@@appleid.cdn-apple.com
+@@idmsa.apple.com
+@@||itunes.apple.com
+@@||mzstatic.com
+@@api.ent.apple.com
+@@api.edu.apple.com
+@@statici.icloud.com
+@@||vertexsmb.com
+@@www.apple.com
+@@upload.appleschoolcontent.com
+@@ws-ee-maidsvc.icloud.com
+
+
+# Apple Business Essentials device management
+@@axm-adm-enroll.apple.com
+@@axm-adm-mdm.apple.com
+@@axm-adm-scep.apple.com
+@@axm-app.apple.com
+@@||apple-mapkit.com
+@@icons.axm-usercontent-apple.com
+
+
+# Classroom and Schoolwork
+@@s.mzstatic.com
+@@play.itunes.apple.com
+@@ws-ee-maidsvc.icloud.com
+@@ws.school.apple.com
+@@pg-bootstrap.itunes.apple.com
+@@cls-iosclient.itunes.apple.com
+@@cls-ingest.itunes.apple.com
+
+
+# Software Updates
+@@appldnld.apple.com
+@@configuration.apple.com
+@@gdmf.apple.com
+@@gg.apple.com
+@@gs.apple.com
+@@ig.apple.com
+@@mesu.apple.com
+@@ns.itunes.apple.com
+@@oscdn.apple.com
+@@osrecovery.apple.com
+@@skl.apple.com
+@@swcdn.apple.com
+@@swdist.apple.com
+@@swdownload.apple.com
+@@swscan.apple.com
+@@updates-http.cdn-apple.com
+@@updates.cdn-apple.com
+@@xp.apple.com
+
+
+# App Store
+@@||itunes.apple.com
+@@||apps.apple.com
+@@||mzstatic.com
+@@itunes.apple.com
+@@ppq.apple.com
+
+
+# Carrier Updates
+@@appldnld.apple.com
+@@appldnld.apple.com.edgesuite.net
+@@itunes.com
+@@itunes.apple.com
+@@updates-http.cdn-apple.com
+@@updates.cdn-apple.com
+
+
+# Content Caching
+@@lcdn-registration.apple.com
+@@suconfig.apple.com
+@@xp-cdn.apple.com
+@@cdn-locator.apple.com
+@@serverstatus.apple.com
+
+
+# App Features
+@@api.apple-cloudkit.com
+@@||appattest.apple.com
+
+ # Beta updates
+@@bpapi.apple.com
+@@cssubmissions.apple.com
+@@fba.apple.com
+
+
+# Apple Diagnostics
+@@diagassets.apple.com
+
+
+# DNS Over HTTPS
+@@doh.dns.apple.com
+
+
+# Certificate Validation
+@@certs.apple.com
+@@crl.apple.com
+@@crl.entrust.net
+@@crl3.digicert.com
+@@crl4.digicert.com
+@@ocsp.apple.com
+@@ocsp.digicert.cn
+@@ocsp.digicert.com
+@@ocsp.entrust.net
+@@ocsp2.apple.com
+@@valid.apple.com
+
+
+# Apple ID
+@@appleid.apple.com
+@@appleid.cdn-apple.com
+@@idmsa.apple.com
+@@gsa.apple.com
+
+
+# iCloud
+@@||apple-cloudkit.com
+@@||apple-livephotoskit.com
+@@||apzones.com
+@@||cdn-apple.com
+@@||gc.apple.com
+@@||icloud.com
+@@||icloud.com.cn
+@@||icloud.apple.com
+@@||icloud-content.com
+@@||iwork.apple.com
+# Blocking to prevent iCloud Private Relay
+# mask.icloud.com
+# mask-h2.icloud.com
+@@||mask-api.icloud.com
+
+
+# Siri and Search
+@@guzzoni.apple.com
+@@||smoot.apple.com
+
+
+# Associated Domains
+@@app-site-association.cdn-apple.com
+@@app-site-association.networking.apple
+
+
+# Tap to Pay on iPhone
+@@pos-device.apple.com
+@@humb.apple.com
+@@phonesubmissions.apple.com
+
+
+# Additional Content
+@@audiocontentdownload.apple.com
+@@devimages-cdn.apple.com
+@@download.developer.apple.com
+@@playgrounds-assets-cdn.apple.com
+@@playgrounds-cdn.apple.com
+@@sylvan.apple.com
+
